@@ -14,9 +14,9 @@ public class Conexion {
 	
 	public Conexion() {
 		 final String JDBC_DRIVER ="com.mysql.cj.jdbc.Driver";
-		 final String DB_URL="jdbc:mysql://localhost:3306/CineN6";
+		 final String DB_URL="jdbc:mysql://localhost:3306/cinen6";
 		 
-		 info f=new Info();
+		 Info f=new Info();
 		 final String USER= f.getUser();//usuario
 		 final String PASS=f.getPass();//pass
 		 
